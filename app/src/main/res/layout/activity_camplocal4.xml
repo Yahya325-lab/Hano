@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camplocal4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/kalamkopen_back_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back_arrow" />
+
+                <ImageView
+                    android:id="@+id/imageView83"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/camp4" />
+
+                <TextView
+                    android:id="@+id/textView145"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="280dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Camping Ground Kalam Kopen"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="330dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/indonesia" />
+
+                <TextView
+                    android:id="@+id/textView146"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="320dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Indonesia"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="370dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/marker2" />
+
+                <TextView
+                    android:id="@+id/maps4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="370dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Tambun, Kabupaten Bekasi"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView148"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="420dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Kalam Kopen Bekasi Camping Ground can be the right choice for those who want to carry out camping activities. Both for formal and non-formal institutions because the place is quite large."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView149"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="520dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="There are parking areas, prayer rooms, multipurpose halls, outbound rides, various exciting games, and so on. As for the operating hours of Kalam Kopen Camping Ground Bekasi, it is open 24 hours a day, for 7 days a week."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView86"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="700dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView150"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="730dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Some photos at Ground Camping Kalam Kopen"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView87"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="600dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/kalamkopen_back_button"
+                    app:srcCompat="@drawable/kalamkopen1" />
+
+                <ImageView
+                    android:id="@+id/imageView88"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="600dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/maps4"
+                    app:srcCompat="@drawable/kalamkopen2" />
+
+                <ImageView
+                    android:id="@+id/imageView89"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="150dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView87"
+                    app:srcCompat="@drawable/kalamkopen3" />
+
+                <ImageView
+                    android:id="@+id/imageView90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="690dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView87"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView151"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="750dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Accessibility"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView87" />
+
+                <ImageView
+                    android:id="@+id/imageView91"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="420dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88"
+                    app:srcCompat="@drawable/no" />
+
+                <TextView
+                    android:id="@+id/textView152"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="420dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Special entrance for wheelchair users"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88" />
+
+                <ImageView
+                    android:id="@+id/imageView92"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="460dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88"
+                    app:srcCompat="@drawable/no" />
+
+                <TextView
+                    android:id="@+id/textView153"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="460dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Wheelchair parking lot"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88" />
+
+                <ImageView
+                    android:id="@+id/imageView93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="550dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView154"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="600dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Facility"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88" />
+
+                <ImageView
+                    android:id="@+id/imageView94"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="635dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView155"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="635dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Barbecue grill"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88" />
+
+                <ImageView
+                    android:id="@+id/imageView95"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="675dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView156"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="675dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Public toilet"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88" />
+
+                <ImageView
+                    android:id="@+id/imageView96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="740dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView88"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView157"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="450dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Children"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView89" />
+
+                <ImageView
+                    android:id="@+id/imageView97"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="480dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView89"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView158"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="480dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Suitable for children"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView89" />
+
+                <ImageView
+                    android:id="@+id/imageView98"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="550dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView89"
+                    app:srcCompat="@drawable/garis1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

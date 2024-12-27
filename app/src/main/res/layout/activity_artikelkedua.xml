@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artikelkedua">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/artikelkeduaback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back_arrow" />
+
+                <ImageView
+                    android:id="@+id/imageView107"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/articles2" />
+
+                <TextView
+                    android:id="@+id/textView163"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="280dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="6 must visit ruins in Mexico City"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView171"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="320dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="October 14 2024"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView203"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="360dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text=" Mexico City, is home to a dozen archeological sites as well as many within easy driving distance. Some are hidden in the heart of the historic center while others make for a better day trip, tucked away in national parks and dense forests that'll feel like you teleported to another—more mystical—world."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView204"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="500dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="So if you’re ready to channel your inner Indiana Jones, these are my favorite sites from over 20 years of exploring the country."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView205"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="1. For an iconic pyramid: Teotihuacán"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView108"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="660dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/artikel2foto1" />
+
+                <TextView
+                    android:id="@+id/textView206"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="610dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Hot air balloons over Teotihuacan."
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView107" />
+
+                <TextView
+                    android:id="@+id/textView207"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="There’s a reason why Teotihuacán is one of the most famous archeological sites in Mexico. In the Mesoamerican city, which covers about eight square miles, you can find various pyramids, plazas, and palaces of priests and nobles. It’s home to the Pyramid of the Sun, which towers above the rest at 216 feet high, making it one of the tallest ruins in the Western Hemisphere. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView107" />
+
+                <TextView
+                    android:id="@+id/textView208"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="753dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Tip: Avoid visiting on Sundays and Mondays. Mexican residents and citizens have free access to Teotihuacán on Sundays, so it tends to get crowded. And, most Mexico City museums are closed on Mondays, meaning a lot of tourists head to Teotihuacán instead. I recommend going on Tuesday or Wednesday, when it’s much quieter."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView163" />
+
+                <TextView
+                    android:id="@+id/textView209"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="730dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="2. For a nature park: Desierto de los Leones"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView203" />
+
+                <ImageView
+                    android:id="@+id/imageView109"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="680dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView204"
+                    app:srcCompat="@drawable/artikel2foto2" />
+
+                <TextView
+                    android:id="@+id/textView210"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Desierto de los Leones in Mexico City."
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView108" />
+
+                <TextView
+                    android:id="@+id/textView211"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="640dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="While Teotihuacán and The Templo Mayor draw major crowds, you’ll have Despierto de los Leones all to yourself. Plus, it’s completely free and open year-round. This lesser-known national park, in the southern borough of Cuajimalpa de Morelos, definitely deserves a full day of your Mexico City itinerary. Don’t believe me? Despierto de los Leones is one of the country’s largest national parks, set in the hills surrounding Valle de México."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView108" />
+
+                <TextView
+                    android:id="@+id/textView212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Tip: Getting here can be a bit of a headache on public transit. Save yourself the hassle and have your hotel arrange a ride ahead of time. It’s easier to take a (verified) taxi, pay for them to wait, and drive you back to Mexico City at the end of the day."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView207" />
+
+                <TextView
+                    android:id="@+id/textView214"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="760dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="3. For a central stop: Templo Mayor"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView207" />
+
+                <ImageView
+                    android:id="@+id/imageView110"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="650dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView208"
+                    app:srcCompat="@drawable/artikel2foto3" />
+
+                <TextView
+                    android:id="@+id/textView215"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="610dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Serpent sculpture at Templo Mayor."
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView109" />
+
+                <TextView
+                    android:id="@+id/textView216"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Templo Mayor is a sacred site; it served as a temple in Tenochtitlán, the former capital of the Aztec empire. Stroll around the ruins’ narrow pathways (it takes about 30 minutes total), and you’ll find that all roads lead to its well-curated museum. Inside, there are extensive exhibits showing figurines, tools, jewelry, and other artifacts that were recovered when the temple was excavated."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView109" />
+
+                <TextView
+                    android:id="@+id/textView217"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="570dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Tip: While you’re in the area, swing by Dulceria de Celaya for a sweet fix. This century-old candy shop is one of the prettiest in Mexico City, IMHO, and has rows of traditional treats like cajeta (dulce de leche), cocadas (coconut clusters), and mazapán (ground-peanut patties). "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView211" />
+
+                <TextView
+                    android:id="@+id/textView218"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="740dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="4. For a well-preserved place: Zona Arqueológica Tenayuca"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView211" />
+
+                <ImageView
+                    android:id="@+id/imageView111"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="680dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView212"
+                    app:srcCompat="@drawable/artikel2foto4" />
+
+                <TextView
+                    android:id="@+id/textView219"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Base of the Aztec pyramid of Tenayuca."
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView110" />
+
+                <TextView
+                    android:id="@+id/textView220"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="670dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="This ruin is remarkably intact, giving you a clear view of rare archeological details. On the pyramid, take a closer look at the 100+ snake sculptures and intricate carvings that wrap around three sides of its base. The on-site museum also has five galleries that showcase various sculptures and carved stones from that period."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView110" />
+
+                <TextView
+                    android:id="@+id/textView221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Tip: Tenayuca is very easy to get to via public transit—take the Metrobus Line 3 to the last stop—and you only need a half-day, including travel time."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView216" />
+
+                <TextView
+                    android:id="@+id/textView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="720dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="5. For a small but mighty site: Plaza de las Tres Culturas"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView216" />
+
+                <ImageView
+                    android:id="@+id/imageView112"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="630dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView217"
+                    app:srcCompat="@drawable/artikel2foto5" />
+
+                <TextView
+                    android:id="@+id/textView223"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="580dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Plaza de las Tres Culturas in Mexico City."
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView111" />
+
+                <TextView
+                    android:id="@+id/textView224"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="This tiny square hides in plain sight in Tlatelolco, a residential neighborhood in the north of Mexico City. But don’t judge it by its size—this ruin packs a big punch. The site is significant because it spans centuries of change, from the Aztec pyramids to the baroque Catholic church, a remnant of colonialism, to the 1960s-era modernist complex surrounding it. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView111" />
+
+                <TextView
+                    android:id="@+id/textView225"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="720dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Tip: When hunger strikes, head five minutes south to El Pozole de Moctezuma. This apartment-turned-restaurant has been in business for 70 years, thanks to its loyal local customers. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView219" />
+
+                <TextView
+                    android:id="@+id/textView226"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="670dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="6. For a remote ruin: Xochicalco"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView220" />
+
+                <ImageView
+                    android:id="@+id/imageView113"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="700dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView220"
+                    app:srcCompat="@drawable/artikel2foto6" />
+
+                <TextView
+                    android:id="@+id/textView227"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="770dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Plaza at Xochicalco ruins."
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView222" />
+
+                <TextView
+                    android:id="@+id/textView228"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Xochicalco is 75 miles outside of Mexico City, and the site itself is super spread out, meaning you won’t have to share it with a soul. You’ll need about two hours to weave through the immaculate grounds and structures."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView112" />
+
+                <TextView
+                    android:id="@+id/textView229"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="700dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Tip: To get the most out of this trip, book a guided tour of the complex."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView112" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

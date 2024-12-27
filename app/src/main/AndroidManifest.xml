@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Contoh"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".france_visa"
+            android:exported="false" />
+        <activity
+            android:name=".BaliVisa"
+            android:exported="false" />
+        <activity
+            android:name=".artikelkedua"
+            android:exported="false" />
+        <activity
+            android:name=".artikel_pertama"
+            android:exported="false" />
+        <activity
+            android:name=".artikel"
+            android:exported="false" />
+        <activity
+            android:name=".camplocal4"
+            android:exported="false" />
+        <activity
+            android:name=".camplocal3"
+            android:exported="false" />
+        <activity
+            android:name=".camplocal2"
+            android:exported="false" />
+        <activity
+            android:name=".camplocal1"
+            android:exported="false" />
+        <activity
+            android:name=".rekomen_camp"
+            android:exported="false" />
+        <activity
+            android:name=".payment_succes_astoria"
+            android:exported="false" />
+        <activity
+            android:name=".astoria_hotel_payment"
+            android:exported="false" />
+        <activity
+            android:name=".astoriahotelparis"
+            android:exported="false" />
+        <activity
+            android:name=".paris_reserved_page"
+            android:exported="false" />
+        <activity
+            android:name=".paris_france_asli"
+            android:exported="false" />
+        <activity
+            android:name=".payment_success_quest"
+            android:exported="false" />
+        <activity
+            android:name=".quest_hotel_payment"
+            android:exported="false" />
+        <activity
+            android:name=".Quest_hotel_bali"
+            android:exported="false" />
+        <activity
+            android:name=".Bali_reserved_page"
+            android:exported="false" />
+        <activity
+            android:name=".Bali_Indo_Asli"
+            android:exported="false" />
+        <activity
+            android:name=".bali_indonesia"
+            android:exported="false" />
+        <activity
+            android:name=".rekomendasi_page"
+            android:exported="false" />
+        <activity
+            android:name=".Home_page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

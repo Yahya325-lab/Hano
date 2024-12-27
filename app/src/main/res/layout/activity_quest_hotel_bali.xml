@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quest_hotel_bali">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/quest_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_biasa"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back_arrow" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="392dp"
+            android:layout_height="209dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView43"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.343"
+            app:srcCompat="@drawable/headerhotel1" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Quest Hotel San Denpasar"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15dp"
+            android:text="4,5 / 5 ⭐"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="60dp"
+            android:text="How long are you gonna stay?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="260dp"
+            android:text="From when"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <Button
+            android:id="@+id/button_date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="290dp"
+            android:layout_marginBottom="330dp"
+            android:text="Pick a date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvdate" />
+
+        <TextView
+            android:id="@+id/tvdate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="240dp"
+            android:text="Until when"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvdate" />
+
+        <Button
+            android:id="@+id/button_date2"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginBottom="230dp"
+            android:text="Pick a date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvdate" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="70dp"
+            android:text="Payment Via"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView43" />
+
+        <Button
+            android:id="@+id/paypalbutton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="@color/black"
+            android:text="Rp. 461.278"
+            android:textColor="@color/red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="52dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="140dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView47"
+            app:srcCompat="@drawable/paypal" />
+
+        <Button
+            android:id="@+id/visabutton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/rectangle"
+            android:text="Rp. 461.278"
+            android:textColor="@color/red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/paypalbutton" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            app:srcCompat="@drawable/visa" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="92dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rectangle12" />
+
+        <Button
+            android:id="@+id/payment_quest_hotel"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#000000"
+            android:text="Reserve the spot"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

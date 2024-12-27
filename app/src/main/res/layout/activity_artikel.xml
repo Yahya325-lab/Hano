@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artikel">
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Popular Article"
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/artikelpertama"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/articles1" />
+
+                <TextView
+                    android:id="@+id/textView159"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="300dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="7 best falls foliage train trips in the US"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView160"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="330dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="September 16 2022"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/artikelkedua2"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="360dp"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/articles2" />
+
+                <TextView
+                    android:id="@+id/textView161"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="590dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="6 must visit ruins in Mexico City"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView162"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="620dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="October 14 2024"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/artikelketiga"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="670dp"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/articles4" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/home_lagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/bg_biasa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+    <ImageButton
+        android:id="@+id/rekomen_lagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="836dp"
+        android:background="@drawable/bg_biasa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_search_24" />
+
+    <ImageButton
+        android:id="@+id/artikel_lagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="836dp"
+        android:background="@drawable/bg_biasa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_info_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

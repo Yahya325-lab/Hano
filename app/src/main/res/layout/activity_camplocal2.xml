@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_biasa"
+    tools:context=".camplocal2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/karang_kitri_back_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back_arrow" />
+
+                <ImageView
+                    android:id="@+id/imageView51"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/camp2" />
+
+                <TextView
+                    android:id="@+id/textView120"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="280dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Bumi Perkemahan Karang Kitri, Bekasi"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="330dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/indonesia" />
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="320dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Indonesia"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="370dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/marker2" />
+
+                <TextView
+                    android:id="@+id/maps2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="370dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Ds. Karang Mulya - Kecamatan Bojongmangu"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="420dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Karang Kitri Campground is a stunning natural tourist destination in Bekasi, West Java. Located in Karang Mulya village, Bojongmangu sub-district, this campground offers a unique and refreshing nature tourism experience."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView124"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="550dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Karang Kitri Campground, with 40 hectares of land, is the largest camping site in the Bekasi area. Managed by the Scout organization, the campground is divided into three areas that can accommodate up to 3000 people. The divided areas ensure the comfort and safety of visitors."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="750dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView125"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="740dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Some photos at Karang Kitri"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/karang_kitri_back_button" />
+
+                <ImageView
+                    android:id="@+id/imageView55"
+                    android:layout_width="398dp"
+                    android:layout_height="310dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="570dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView51"
+                    app:srcCompat="@drawable/karangkitri1" />
+
+                <ImageView
+                    android:id="@+id/imageView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="805dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView53"
+                    app:srcCompat="@drawable/karangkitri2" />
+
+                <ImageView
+                    android:id="@+id/imageView57"
+                    android:layout_width="409dp"
+                    android:layout_height="296dp"
+                    android:layout_marginTop="783dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView124"
+                    app:srcCompat="@drawable/karangkitri3" />
+
+                <ImageView
+                    android:id="@+id/imageView58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="705dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView55"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView126"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="763dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Facility"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView55" />
+
+                <ImageView
+                    android:id="@+id/imageView59"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="800dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView55"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView127"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="505dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Swing"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56" />
+
+                <ImageView
+                    android:id="@+id/imageView60"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="540dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView128"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="540dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Picnic table"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56" />
+
+                <ImageView
+                    android:id="@+id/imageView61"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="580dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView129"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="580dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Public Toilet"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56" />
+
+                <ImageView
+                    android:id="@+id/imageView62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="650dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView130"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="705dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="For Children"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56" />
+
+                <ImageView
+                    android:id="@+id/imageView63"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="740dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView131"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="740dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Playground"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56" />
+
+                <ImageView
+                    android:id="@+id/imageView64"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="780dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView56"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView132"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="425dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Suitable for children"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView57" />
+
+                <ImageView
+                    android:id="@+id/imageView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="500dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView57"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView133"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="540dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Overall rating"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView57" />
+
+                <ImageView
+                    android:id="@+id/imageView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView57"
+                    app:srcCompat="@drawable/ratingcamp2" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

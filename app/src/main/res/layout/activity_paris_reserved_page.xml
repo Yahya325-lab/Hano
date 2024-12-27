@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paris_reserved_page">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/paris_preserved_back_button"
+                android:layout_width="54dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_biasa"
+                app:srcCompat="@drawable/back_arrow" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where we going?"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/gray"
+                android:text="let’s get started by selecting where you wanna stay" />
+
+            <ImageButton
+                android:id="@+id/astoriabutton"
+                android:layout_width="395dp"
+                android:layout_height="260dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/astoriaopera1" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hôtel Astoria - Astotel"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4,4 / 5 ⭐"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp. 1.531.186"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/red"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"/>
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="395dp"
+                android:layout_height="290dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/hotelmillie" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hôtel Le Milie Rose"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4,8 / 5 ⭐"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-black"/>
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp. 1.700.068"
+                android:textColor="@color/red"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"/>
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="395dp"
+                android:layout_height="290dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/hoteldeparis" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hôtel de Paris Opéra"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3,0 / 5 ⭐"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp. 1.036.821"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

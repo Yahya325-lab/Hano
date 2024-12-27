@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaliVisa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/balivisaback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back_arrow" />
+
+                <TextView
+                    android:id="@+id/textView213"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Visa Information"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView230"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="90dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Visa Options based on Length of Stay"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView114"
+                    android:layout_width="399dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="130dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/balivisa1" />
+
+                <TextView
+                    android:id="@+id/textView231"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="350dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Stay less than 30 days"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView232"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="400dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView233"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="380dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Citizens from 90+ countries can get the simple Visit Visa (also known as visa on arrival or VoA / eVoA). You can apply online.  "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView234"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="480dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView235"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="460dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Citizens of ASEAN countries do NOT need a Visa "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView236"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="540dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="3. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView237"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="520dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Travelers from countries that are not eligible for a Visa on Arrival  MUST apply for a 211a Visa BEFORE arrival "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView238"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Stay between 30 and 60 days"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView239"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="680dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView240"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="660dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="If you arrive with a 30 days visit Visa (Visa on Arrival) you can extend it ONCE for another 30 days "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView241"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="740dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView242"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="680dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="You can apply directly for for a 211a Visa (60 days) BEFORE arrival "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/balivisaback" />
+
+                <TextView
+                    android:id="@+id/textView243"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="760dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Stay in Indonesia longer than 60 days"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView213" />
+
+                <TextView
+                    android:id="@+id/textView244"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="850dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/balivisaback" />
+
+                <TextView
+                    android:id="@+id/textView245"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="540dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="For almost all nationalities: Get 211A Visa (60days) can be extended twice for 60 days each, while you are in Indonesia.  Therefore max stay is 180 days."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView114" />
+
+                <TextView
+                    android:id="@+id/textView246"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="650dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView114" />
+
+                <TextView
+                    android:id="@+id/textView247"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="D1 Multiple Entry Visit Visa for 1, 2 or 5 years. Maximum stay per Visit is 60 days. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView114" />
+
+                <TextView
+                    android:id="@+id/textView248"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="720dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="3."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView114" />
+
+                <TextView
+                    android:id="@+id/textView249"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="700dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="D12 Pre-Investment Visa for 1 or 2 years, Multiple Entry. Maximum stay per Visit is 180days "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView114" />
+
+                <TextView
+                    android:id="@+id/textView250"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="787dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="For more information please check official web about the visa :"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView231" />
+
+                <TextView
+                    android:id="@+id/visainfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="695dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Click Here!"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView234" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

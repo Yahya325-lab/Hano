@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bali_reserved_page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/spotback1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_biasa"
+                app:srcCompat="@drawable/back_arrow" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where we going?"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/gray"
+                android:text="let’s get started by selecting where you wanna stay  " />
+
+            <ImageButton
+                android:id="@+id/bali_hotel_1"
+                android:layout_width="395dp"
+                android:layout_height="260dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stroke"
+                app:srcCompat="@drawable/balihotel1" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="Quest Hotel San Denpasar" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:text="4,5 / 5 ⭐ " />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="270dp"
+                android:layout_height="34dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginLeft="30dp"
+                android:text="Rp 461.278"
+                android:textSize="15dp"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/bali_hotel_2"
+                android:layout_width="395dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="260dp"
+                app:srcCompat="@drawable/balihotel2" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFINITY 8 BALI" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4,3 / 5 ⭐"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp 483.230"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/red"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/bali_hotel_3"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="395dp"
+                android:layout_height="260dp"
+                app:srcCompat="@drawable/balihotel3" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fashion Hotel Legian" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4,2 / 5 ⭐"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp. 357.500" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rekomen_camp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/button_back_camp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.023"
+                    app:srcCompat="@drawable/back_arrow" />
+
+                <TextView
+                    android:id="@+id/textView95"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Camp | Around You"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/camp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView95"
+                    app:layout_constraintVertical_bias="0.03"
+                    app:srcCompat="@drawable/camp1" />
+
+                <TextView
+                    android:id="@+id/textView96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="150dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Kawung Tilu, Bekasi"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="200dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/indonesia" />
+
+                <TextView
+                    android:id="@+id/textView97"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="270dp"
+                    android:layout_marginTop="200dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Indonesia"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/camp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="350dp"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/camp2" />
+
+                <TextView
+                    android:id="@+id/textView99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="350dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Bumi Perkemahan"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="375dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Karang Kitri, Bekasi"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="420dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/indonesia" />
+
+                <TextView
+                    android:id="@+id/textView100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="270dp"
+                    android:layout_marginTop="420dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Indonesia"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/camp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="550dp"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/camp3" />
+
+                <TextView
+                    android:id="@+id/textView102"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="550dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Bumi Perkemahan"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="580dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Jatisari, Bekasi"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="620dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/indonesia" />
+
+                <TextView
+                    android:id="@+id/textView104"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="270dp"
+                    android:layout_marginTop="620dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Indonesia"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="750dp"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/camp4" />
+
+                <TextView
+                    android:id="@+id/textView105"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="780dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Camping Ground"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView106"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="810dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Kalam Kopen, Bekasi"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginTop="850dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/indonesia" />
+
+                <TextView
+                    android:id="@+id/textView108"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="270dp"
+                    android:layout_marginTop="850dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Indonesia"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

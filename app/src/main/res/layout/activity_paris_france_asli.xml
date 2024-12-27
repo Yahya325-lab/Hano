@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paris_france_asli">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/paris_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_biasa"
+                app:srcCompat="@drawable/back_arrow" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="328dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/paris" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paris France"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Capital and the largest city of France"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="Paris is the fourth-largest city in the European Union and the 30th most densely populated city in the world in 2022. Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, culture, fashion, and gastronomy" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="Museums and architectural landmarks" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="Paris is known for its museums and architectural landmarks: the Louvre received 8.9 million visitors in 2023, on track for keeping its position as the most-visited art museum in the world." />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/louvremuseum" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Louvre Museum" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:text="France must-visit place" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. | Paris"
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/eiffeltower" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="Eiffel Tower " />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="France's capital city is a year-round tourist destination with iconic attractions like the Louvre and the Eiffel Tower and incredible architecture. " />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="2. | French Alps" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="363dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/frenchalps" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="French Alps"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="If your ideal French vacation involves a little more nature and a little less city, head to the French Alps. Here, you'll find some of the best ski slopes in Europe, as well as beautiful scenery that rivals any work of art or architecture. In summer, the typically snow-covered mountains thaw just enough to create perfect conditions for hiking and biking." />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. | Nice"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="323dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/nice" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Nice, France" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="Glamorous Nice occupies a picturesque spot along the French Riviera. Beach bums and culture hounds alike will enjoy the city's pebbly shores, engaging museums, boutique shops and Baroque-style palaces. Be sure to stroll along the coastline's Promenade des Anglais and pick up some fresh flowers and produce at the vibrant Cours Saleya market, located in old town." />
+
+            <ImageButton
+                android:id="@+id/buttonpreservedparis"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/bg_teks"
+                app:srcCompat="@drawable/bed" />
+k
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reserve a spot"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <ImageButton
+                android:id="@+id/buttonvisafrance"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_teks"
+                app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visa Information"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".astoria_hotel_payment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-206dp"
+        tools:layout_editor_absoluteY="-258dp">
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Waiting for payment"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/headerhotel2" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="160dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Hôtel Astoria - Astotel"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView84" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="100dp"
+            android:fontFamily="sans-serif-black"
+            android:text="4,4 / 5 ⭐"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView84" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Payment via"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView84" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/rectangle"
+            android:text="Rp. 1.531.186"
+            android:textColor="@color/red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView84" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView88"
+            app:srcCompat="@drawable/paypal" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="90dp"
+            android:text="Your payment code"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUIFU687FGV"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/red"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+        <TextView
+            android:id="@+id/timertextview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30:00"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button3" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="payment must be paid within 30 minutes if more will be canceled."
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView89" />
+
+        <Button
+            android:id="@+id/astoria_pay_button"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#000000"
+            android:text="Pay now"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

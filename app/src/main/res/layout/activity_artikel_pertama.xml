@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artikel_pertama">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/artikelpertamaback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back_arrow" />
+
+                <ImageView
+                    android:id="@+id/imageView99"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/articles1" />
+
+                <TextView
+                    android:id="@+id/textView164"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="280dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="7 best falls foliage train trips in the US"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView165"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="320dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="September 16 2022"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView166"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="360dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="This fall, consider ditching the car and hopping aboard a train instead. With comfy seats and plenty of room to spread out, onboard amenities like Wi-Fi and snacks, and an engineer in the driver’s seat, trains are an ideal low-stress way to admire Mother Nature’s flashy autumn spectacle. Below, some of the best leaf-peeping train rides in North America."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView167"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="550dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="1. Durango and Silverton Narrow Gauge Railroad, CO"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView100"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="600dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/artikel1foto" />
+
+                <TextView
+                    android:id="@+id/textView168"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="550dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Durango and Silverton Narrow Gauge Railroad, CO "
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView99" />
+
+                <TextView
+                    android:id="@+id/textView169"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="570dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Best time to go: "
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView99" />
+
+                <TextView
+                    android:id="@+id/textView170"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="570dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Mid-September to mid-October"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView99" />
+
+                <TextView
+                    android:id="@+id/textView172"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Marvel at the buttery-yellow aspens of Colorado’s San Juan Mountains while riding the Durango and Silverton Narrow Gauge Railroad on a route dating back to 1882. Start the journey at the original depot in downtown Durango, then make the 45-mile trek to the tiny former silver mining town of Silverton in comfort aboard either a steam or diesel train. Grab lunch and walk around quaint Silverton, then hop back on the train for the return trip to Durango (or, if you’re short on time, there’s an option to take a bus back). The full-day route follows the path of the gorgeous Animas River, which makes for great photo opportunities as the dancing aspen leaves turn from green to gold. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView99" />
+
+                <TextView
+                    android:id="@+id/textView173"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="650dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="2. Ethan Allen Express, NY to VT"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView166" />
+
+                <ImageView
+                    android:id="@+id/imageView101"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="700dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView166"
+                    app:srcCompat="@drawable/artikel1foto2" />
+
+                <TextView
+                    android:id="@+id/textView174"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="635dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Aerial view of fall foliage that lines the Ethan Allen Express train track in Vermont "
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView100" />
+
+                <TextView
+                    android:id="@+id/textView175"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="650dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Best time to go: "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView100" />
+
+                <TextView
+                    android:id="@+id/textView176"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="650dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Late September through early October"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView100" />
+
+                <TextView
+                    android:id="@+id/textView177"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="670dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Amtrak’s Ethan Allen Express is a handy option for commuting between New York City and Burlington, VT, but it’s also a peaceful way to experience New England’s awe-inspiring fall foliage. As the temperatures drop and the days get shorter, passengers can stay cozy while watching the brilliant display of fiery sugar maples and sunny birches passing by outside the window. The train departs from bustling Penn Station, then makes its way north through the Hudson River Valley and the Green Mountains. Spend the night at one of Burlington’s charming hotels and bed-and-breakfasts before making the trip back home."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView100" />
+
+                <TextView
+                    android:id="@+id/textView178"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="650dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="3. Cuyahoga Valley Scenic Railroad, OH"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView172" />
+
+                <ImageView
+                    android:id="@+id/imageView102"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="700dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView172"
+                    app:srcCompat="@drawable/artikel1foto3" />
+
+                <TextView
+                    android:id="@+id/textView179"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="610dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Cuyahoga Valley Scenic Railroad, OH"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView101" />
+
+                <TextView
+                    android:id="@+id/textView180"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="625dp"
+                    android:text="Best time to go:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView101" />
+
+                <TextView
+                    android:id="@+id/textView181"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="625dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="October"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView101" />
+
+                <TextView
+                    android:id="@+id/textView182"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="650dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Take in the fall colors of Ohio’s Cuyahoga Valley National Park from a unique vantage point aboard the Cuyahoga Valley Scenic Railroad’s Fall Flyer rides. The 33,000-acre park in northeast Ohio is brimming with broad-leaf trees that come alive with color each autumn, from glowing red maples and dogwoods to vibrant orange sassafras to lemony-yellow bigtooth aspens and white ash. Travel along the Cuyahoga River—and keep your eyes peeled for peregrine falcons, bald eagles, white-tailed deer, and other wildlife along the way—on this special two-hour leaf-peeping ride offered on Saturdays and Sundays throughout October. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView101" />
+
+                <TextView
+                    android:id="@+id/textView183"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="4. Agawa Canyon Tour Train, Canada"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView177" />
+
+                <ImageView
+                    android:id="@+id/imageView103"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="700dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView177"
+                    app:srcCompat="@drawable/artikel1foto4" />
+
+                <TextView
+                    android:id="@+id/textView184"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="610dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="The Agawa Canyon Tour Train"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView102" />
+
+                <TextView
+                    android:id="@+id/textView185"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Best time to go:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView102" />
+
+                <TextView
+                    android:id="@+id/textView186"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="630dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Mid-September through early October"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView102" />
+
+                <TextView
+                    android:id="@+id/textView187"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="660dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Venture north into Canada for an unparalleled leaf-peeping ride on the Agawa Canyon Tour Train. Departing from downtown Sault Ste. Marie, just across the border from Michigan, this cheery locomotive travels 114 miles round-trip to Agawa Canyon Park, which has earned a reputation for being one of the best places to see dazzling orange and red maples in northern Ontario. The train weaves through the serene hardwood forests of the Canadian Shield, traversing across streams and lakes before descending 500 feet to the canyon floor. After a 90-minute stopover to explore the park, which is home to several gushing waterfalls, it's back onboard the train for the return journey. In addition to maples, riders get a kaleidoscopic view of multicolored birches, aspens, hornbeams, firs, and pines."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView102" />
+
+                <TextView
+                    android:id="@+id/textView188"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="700dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="5. North Shore Scenic Railroad, MN"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView182" />
+
+                <ImageView
+                    android:id="@+id/imageView104"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="750dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView182"
+                    app:srcCompat="@drawable/artikel1foto5" />
+
+                <TextView
+                    android:id="@+id/textView189"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="645dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="The North Shore Scenic Railroad, MN"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView103" />
+
+                <TextView
+                    android:id="@+id/textView190"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="660dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Best time to go:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView103" />
+
+                <TextView
+                    android:id="@+id/textView191"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="660dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Mid-September to mid-October"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView103" />
+
+                <TextView
+                    android:id="@+id/textView192"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="690dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Travel along the western shore of Lake Superior while riding the North Shore Scenic Railroad. On weekends in the fall, this Minnesota railroad’s foliage tour departs from Duluth and travels north to Two Harbors for a leisurely layover that allows time for lunch and shopping. From the train, take in the golden-yellow hues of the birches and aspens, the oranges and reds of the sumacs and maples, and the dark greens of the conifers, all set against the backdrop of the majestic lake’s sparkling cerulean waters."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView103" />
+
+                <TextView
+                    android:id="@+id/textView193"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="560dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="6. Great Smoky Mountains Railroad, NC"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView187" />
+
+                <ImageView
+                    android:id="@+id/imageView105"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="620dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView187"
+                    app:srcCompat="@drawable/artikel1foto6" />
+
+                <TextView
+                    android:id="@+id/textView194"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="560dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Great Smoky Mountains Railroad, TN"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView104" />
+
+                <TextView
+                    android:id="@+id/textView195"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="575dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Best time to go:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView104" />
+
+                <TextView
+                    android:id="@+id/textView196"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="575dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="October"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView104" />
+
+                <TextView
+                    android:id="@+id/textView197"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="The Great Smoky Mountains are beautiful any time of year but, come autumn, they’re particularly dramatic thanks to red-orange sugar maples, reddish-brown oaks, golden poplars, and other colorful trees. Experience the best of the fall foliage aboard the Great Smoky Mountain Railroad in western North Carolina. The 44-mile round-trip Nantahala Gorge excursion, which departs daily from Bryson City, NC, offers some of the best leaf-peeping opportunities around. It follows the Nantahala River into the gorge, where travelers can disembark, stretch their legs and take in the views before hopping back on the train for the return trip. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView104" />
+
+                <TextView
+                    android:id="@+id/textView198"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="620dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="7. Napa Valley Wine Train"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView192" />
+
+                <ImageView
+                    android:id="@+id/imageView106"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="680dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView192"
+                    app:srcCompat="@drawable/artikel1foto7" />
+
+                <TextView
+                    android:id="@+id/textView199"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="600dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Napa Valley Wine Train, CA"
+                    android:textColor="@color/gray"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView105" />
+
+                <TextView
+                    android:id="@+id/textView200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="615dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Best time to go:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView105" />
+
+                <TextView
+                    android:id="@+id/textView201"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="615dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Mid-October to early November"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView105" />
+
+                <TextView
+                    android:id="@+id/textView202"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="640dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Napa Valley may be best known for its bold cabernet sauvignons and other delectable wines, but this region in northern California is also an ideal destination for leaf-peeping. Why? Because the slightly cooler autumn weather sets the valley’s tidy, geometric rows of grapevines ablaze with color. Take it all in—and, of course, sip some wine—with a ride on the Napa Valley Wine Train, which makes a 36-mile round-trip jaunt from Napa to St. Helena and back. Towering oaks and stately eucalyptus trees also line the route, adding even more hues of crimson and orange to the mix.
+More to do nearby"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView105" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

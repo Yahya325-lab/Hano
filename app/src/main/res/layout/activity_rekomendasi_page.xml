@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rekomendasi_page">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Recomendation For You!"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+     <ImageButton
+        android:id="@+id/camp_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/camp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203"
+        app:srcCompat="@drawable/cat2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="80dp"
+        android:text="Camp | Around You"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/camp_image" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bg_putih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204"
+        app:srcCompat="@drawable/cat1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="80dp"
+        android:text="Beach | Around You"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton10" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/mount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647"
+        app:srcCompat="@drawable/cat5" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:text="Forest | Around You"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton12" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/forest_frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647"
+        app:srcCompat="@drawable/cat3" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="50dp"
+        android:text="Mountain | Around You"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton12"
+        app:layout_constraintTop_toTopOf="@+id/imageButton11" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/home_button"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="363dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/bg_biasa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_home_24" />
+
+        <ImageButton
+            android:id="@+id/rekomendasi_button"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/bg_biasa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_search_24" />
+
+        <ImageButton
+            android:id="@+id/artikel1_button"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/bg_biasa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_info_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

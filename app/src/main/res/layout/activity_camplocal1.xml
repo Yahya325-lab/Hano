@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_biasa"
+    tools:context=".camplocal1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/kawungtilu_back_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_biasa"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back_arrow" />
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/kawungtilu_back_button"
+                    app:srcCompat="@drawable/headercamp1" />
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="280dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Kawung Tilu, Bekasi"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="330dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/indonesia" />
+
+                <TextView
+                    android:id="@+id/textView98"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="320dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Indonesia"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="370dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/marker2" />
+
+                <TextView
+                    android:id="@+id/maps1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="370dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Bojong Rangkas - Kabupaten Bekasi"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView107"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="420dp"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="One of the natural tourist attractions in Bekasi Regency that carries a contemporary concept is Kawung Tilu Bojong Rangkas, which is located in Cipayung Village, East Cikarang District, Bekasi Regency, West Java.  Although it is relatively new, the tourist park managed by the Cibeet youth is quite a hit among tourists. With their ideas and creativity, the manager developed this area into a tourist park with rows of pine trees that are so soothing to the eye.  Various kinds of decorations and decorations are also prepared with a pretty neat arrangement so that it looks instgrammable for photo purposes. "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView107"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView109"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Some photos at Kawung Tilu"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView35" />
+
+                <ImageView
+                    android:id="@+id/imageView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="750dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/kawungtilu1" />
+
+                <ImageView
+                    android:id="@+id/imageView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1000dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/kawungtilu2" />
+
+                <ImageView
+                    android:id="@+id/imageView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1250dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/kawungtilu3" />
+
+                <ImageView
+                    android:id="@+id/imageView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="800dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView109"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView110"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="620dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Accssessibility"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+
+                <ImageView
+                    android:id="@+id/imageView40"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="650dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="650dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Special seats for wheelchair users"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+
+                <ImageView
+                    android:id="@+id/imageView41"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="690dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="690dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Wheelchair parking lot"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+
+                <ImageView
+                    android:id="@+id/imageView42"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="730dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="730dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Special entrance for wheelchair users"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+
+                <ImageView
+                    android:id="@+id/imageView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="800dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView114"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="580dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Facility"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+                <ImageView
+                    android:id="@+id/imageView44"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="610dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView37"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="610dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Toilet"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+                <ImageView
+                    android:id="@+id/imageView45"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="650dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView37"
+                    app:srcCompat="@drawable/checkmark" />
+
+                <TextView
+                    android:id="@+id/textView116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="650dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Gender-neutral restrooms"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+                <ImageView
+                    android:id="@+id/imageView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="730dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView37"
+                    app:srcCompat="@drawable/garis1" />
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="750dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Overall rating"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+                <ImageView
+                    android:id="@+id/imageView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="780dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView37"
+                    app:srcCompat="@drawable/ratingcamp1" />
+
+                <ImageView
+                    android:id="@+id/imageView48"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="750dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView38"
+                    app:srcCompat="@drawable/guestvector" />
+
+                <TextView
+                    android:id="@+id/textView118"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="760dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Cocok buat foto keluarga banyak tempat jajan juga"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+                <ImageView
+                    android:id="@+id/imageView49"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="790dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView38"
+                    app:srcCompat="@drawable/guestvector" />
+
+                <TextView
+                    android:id="@+id/textView119"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="710dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Parkir area luas, banyak tempat view yang bagus"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView39" />
+
+                <ImageView
+                    android:id="@+id/imageView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="800dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView39"
+                    app:srcCompat="@drawable/garis1" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

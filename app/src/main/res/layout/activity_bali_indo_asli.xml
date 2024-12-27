@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bali_Indo_Asli">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/bali_back_button"
+                android:layout_width="51dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_biasa"
+                app:srcCompat="@drawable/back_arrow" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="410dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/bali_aja" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bali Indonesia"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land of the Gods"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity. It is also famous for surfers’ paradise! Bali enchants with its dramatic dances and colorful ceremonies, its arts, and crafts, to its luxurious beach resorts and exciting nightlife. And everywhere, you will find intricately carved temples."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="60dp"
+                android:text="The Handcrafts of the Gods" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="346dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/bali1" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="There are thousands of gift shops in Bali. From Denpasar to Ubud, you'll find many things you'd like to bring back home. Balinese signature souvenir range from delicious snacks and beverages, to the exquisite handcrafted goods like Tenun Bali." />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginTop="60dp"
+                android:text="Bali's must-visit places" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-black"
+                android:text="1 | Campuhan Ridge Walk" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="391dp"
+                app:srcCompat="@drawable/bali2" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:text="Bali is also popular for its amazing natural attractions. One must-visit is the Campuhan Ridge Walk. Located in the modern and bustling Ubud, this beautiful mountain valley hiking trail is definitely the best place to unwind and breathe in some fresh air. Along the way, the hilly trail stretches for 9 kilometers, accompanied by the most stunning views of the hillsides and the green valley of the Wos River. If you are lucky and the weather is good enough, the majestic Mount Agung towering between the hills can be clearly seen. This location really does make for a beautiful and breathtaking Bali adventure!" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="50dp"
+                android:text="2 | Pura Gunung Kawi " />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="395dp"
+                app:srcCompat="@drawable/bali3" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:text="One of the most unique archaeological sites on the island of Bali is Gunung Kawi Temple which consists of a collection of ancient reliefs carved into the rock cliff face. Visiting the site, you will be treated to stunning views of the Pakerisan River as well as the temple grounds which have the feel of an ancient Hindu temple with a modern twist. The temple is easy to find and is an essential destination to add to any Bali itinerary. Before entering the site, you will climb a flight of stairs, and be offered an earthen vase filled with holy water which you will need to sprinkle on yourself before entering the temple complex. " />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:text="3 | GWK Culture Park" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="435dp"
+                app:srcCompat="@drawable/bali4" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-black"
+                android:text="GWK Cultural Park presents a variety of beautiful Balinese dances such as the exotic Kecak dance, the majestic Legong dance, as well as many other mesmerizing dances performed here. Don't forget to relax by the side of the GWK Lotus Pond while observing the splendor of the Garuda Wisnu Kencana statue that rises 120 meters high and was built over 28 years. " />
+
+            <ImageButton
+                android:id="@+id/bali_reserve_button"
+                android:layout_width="410dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/bg_teks"
+                app:srcCompat="@drawable/bed" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="Reserve a spot" />
+
+            <ImageButton
+                android:id="@+id/bali_visa_info_button"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_teks"
+                app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visa Information"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
